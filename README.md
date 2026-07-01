@@ -38,17 +38,14 @@ streamlit run app.py
 
 ## Project Structure
 
-sentiment_project/
-├── app/
-│   ├── app.py                # Streamlit UI
-│   ├── sentiment_model.pkl   # trained pipeline
-│   ├── requirements.txt
-│   └── model_comparison.csv
-├── data/
-│   ├── train_model.py        # training script
-│   ├── twitter_training.csv
-│   └── twitter_validation.csv
+```text
+twitter-sentiment-analysis/
+├── app.py                 # Streamlit UI
+├── sentiment_model.pkl    # trained pipeline
+├── model_comparison.csv   # model evaluation summary
+├── requirements.txt       # Python dependencies
 └── README.md
+```
 
 ## Author
 
